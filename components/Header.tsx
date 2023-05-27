@@ -1,12 +1,9 @@
-"use client";
-import { useState } from "react";
 import { useTheme } from "next-themes";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
-  const [header, setHeader] = useState(false);
 
   return (
     <div>

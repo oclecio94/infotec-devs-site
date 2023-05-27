@@ -5,11 +5,6 @@ import Work from "@/components/Work";
 import Portfolio from "@/components/Portfolio";
 import { ThemeProvider } from "next-themes";
 
-export const metadata = {
-  title: "InfotecDevs",
-  description: "Grupo de Desenvolvedores",
-};
-
 export default function RootLayout({
   children,
 }: {
