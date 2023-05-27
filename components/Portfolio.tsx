@@ -9,16 +9,16 @@ import web6 from "../public/images/web6.png";
 const Portfolio = () => {
   return (
     <section className="md:px-20 lg:px-40">
-      <div>
+      <div className="mx-4">
         <h3 className="text-3xl py-1 font-bold">Portofolio</h3>
-        <p className="text-md py-2 leading-8 text-gray-800">
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
           Desde o início da nossa jornada como freelancers e desenvolvedores, já
           fizemos trabalho remoto para
           <span className="text-teal-500"> agências e pequenos negócios </span>e
           colaboramos com pessoas talentosas para criar produtos digitais tanto
           para uso comercial quanto para o consumidor.
         </p>
-        <p className="text-md py-2 leading-8 text-gray-800">
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
           Ofereçemos uma ampla gama de serviços, incluindo criação de sites,
           banco de dados e APIs.
         </p>

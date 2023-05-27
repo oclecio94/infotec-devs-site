@@ -1,7 +1,9 @@
+"use client";
 import Header from "@/components/Header";
 import "./globals.css";
 import Work from "@/components/Work";
 import Portfolio from "@/components/Portfolio";
+import { ThemeProvider } from "next-themes";
 
 export const metadata = {
   title: "InfotecDevs",
@@ -16,10 +18,12 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
-        <Header />
-        {children}
-        <Work />
-        <Portfolio />
+        <ThemeProvider enableSystem={true} attribute="class">
+          <Header />
+          {children}
+          <Work />
+          <Portfolio />
+        </ThemeProvider>
       </body>
     </html>
   );

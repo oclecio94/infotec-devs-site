@@ -5,17 +5,17 @@ import consulting from "../public/images/consulting.png";
 
 const Work = () => {
   return (
-    <section className="md:px-20 lg:px-40">
+    <section className="mx-4 md:px-20 lg:px-40">
       <div className="mx-2">
         <h3 className="text-3xl py-1 font-bold">Nossa Missão</h3>
-        <p className="text-md py-2 leading-8 text-gray-800">
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
           Desde o início da nossa jornada como freelancers e desenvolvedores, já
           fizemos trabalho remoto para
           <span className="text-teal-500"> agências e pequenos negócios </span>e
           colaboramos com pessoas talentosas para criar produtos digitais tanto
           para uso comercial quanto para o consumidor.
         </p>
-        <p className="text-md py-2 leading-8 text-gray-800">
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
           Ofereçemos uma ampla gama de serviços, incluindo criação de sites,
           banco de dados e APIs.
         </p>
@@ -35,8 +35,8 @@ const Work = () => {
             núcleo e a teoria do projeto.
           </p>
           <h4 className="py-4 text-teal-600">Ferramentas que usamos</h4>
-          <p className="text-gray-800 py-1">Figma</p>
-          <p className="text-gray-800 py-1">VScode</p>
+          <p className="text-gray-800 py-1 dark:text-white">Figma</p>
+          <p className="text-gray-800 py-1 dark:text-white">VScode</p>
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10">
           <Image
@@ -52,8 +52,8 @@ const Work = () => {
             núcleo e a teoria do projeto.
           </p>
           <h4 className="py-4 text-teal-600">Ferramentas que usamos</h4>
-          <p className="text-gray-800 py-1">Figma</p>
-          <p className="text-gray-800 py-1">VScode</p>
+          <p className="text-gray-800 py-1 dark:text-white">Figma</p>
+          <p className="text-gray-800 py-1 dark:text-white">VScode</p>
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10">
           <Image
@@ -69,8 +69,8 @@ const Work = () => {
             núcleo e a teoria do projeto.
           </p>
           <h4 className="py-4 text-teal-600">Ferramentas que usamos</h4>
-          <p className="text-gray-800 py-1">Figma</p>
-          <p className="text-gray-800 py-1">VScode</p>
+          <p className="text-gray-800 py-1 dark:text-white">Figma</p>
+          <p className="text-gray-800 py-1 dark:text-white">VScode</p>
         </div>
       </div>
     </section>
